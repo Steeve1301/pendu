@@ -1,0 +1,53 @@
+header {
+  background: #cecbcb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.global {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.global h2, .global p {
+  text-align: center;
+  width: 100%;
+}
+
+.global p {
+  font-size: 3.4em;
+}
+
+.global input {
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.global button {
+  margin-top: 50px;
+  background: none;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
